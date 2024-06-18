@@ -88,5 +88,6 @@ emailregex = re.compile(
 # In[9]:
 
 
-emailregex.findall(pdf)
+allemails = emailregex.findall(pdf)
+print(allemails)
 
